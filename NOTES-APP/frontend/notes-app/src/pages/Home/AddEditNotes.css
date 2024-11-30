@@ -1,0 +1,46 @@
+.edit-note-container{
+    position: relative;
+}
+.remove-button{
+    width: 30px; /* Equivalent to w-10 */
+    height: 30px; /* Equivalent to h-10 */
+    border-radius: 20%; /* Equivalent to rounded-full */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:3px;
+    right: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.notes-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 5px;
+}
+.title-input-box{
+    font-size: 1.5rem;
+    color: #1e2a38; 
+    border: none;
+}
+.content-text-area{
+    font-size: 0.875rem;
+    color: #1f2937;
+    padding:  0.5rem;
+    border-radius: 0.25rem;
+    background-color:#f1f5f9;
+    border: none;
+}
+.editnote-btn{
+    width: 100%;
+    background-color: #2B85FF;/* PRIMARY COLOR*/
+    color:white;
+    padding: 0.5rem 14rem;/* 8px */
+    border-radius: 0.25rem; 
+    margin-top: 10px;
+    margin-bottom: 0.25rem; 
+    border: none;
+}

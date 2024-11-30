@@ -1,0 +1,35 @@
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; 
+}
+.profile-initials{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+color: #0f172a;
+background-color: #f1f5f9; 
+font-weight: 500; 
+}
+.profile-name{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.logout-button{
+    font-size: 0.875rem;
+    color: #374151; /* Slate 700 */;
+    text-decoration: underline;
+    border: none;
+    background-color: #ffff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.logout-button:hover {
+    background-color: #1D4ED8;
+    color: white;
+    text-decoration: none;
+}

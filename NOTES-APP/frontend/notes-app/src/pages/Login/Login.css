@@ -1,0 +1,24 @@
+.heading{
+    font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5rem; 
+}
+.sub-container {
+    width: 24rem; /* 384px */
+    border: 1px solid #ccc;/* Default border width */
+    border-radius: 0.25rem; 
+    padding: 1rem 1.75rem;
+
+  }
+.styled-paragraph {
+    font-size: 0.875rem; /*text-sm */
+    text-align: center; 
+    margin-top: 1rem; 
+}
+.styled-link {
+    color:#2B85FF;
+}

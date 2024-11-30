@@ -1,0 +1,58 @@
+.tag-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5px;
+}
+.tag-input-button{
+    border: 1px solid;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0.25rem; 
+}
+.tag-button-wrapper{
+    width: 2rem; 
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    border-color: #1D4ED8;
+}
+.tag-button-wrapper:hover{
+    background-color: #1D4ED8;
+}
+.tag-list{
+    display: flex;
+    align-items: center;
+    gap: 0.5 rem;
+    flex-wrap: wrap;
+    margin-top: 0.5 rem;
+}
+.tag-item{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #1e293b;
+    background-color: #f1f5f9;
+    padding: 4px;
+    border-radius: 4px;
+}
+.tag-add-button{
+    font-size: 1.5rem; 
+    color: #1D4ED8;
+   
+}
+.tag-add-button:hover{
+    color: #ffffff;
+}
+.tag-remove-button{
+    width: 30px; /* Equivalent to w-10 */
+    height: 30px; /* Equivalent to h-10 */
+    border-radius: 20%; /* Equivalent to rounded-full */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: none;
+}

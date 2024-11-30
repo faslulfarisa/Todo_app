@@ -1,0 +1,33 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+    background-color: #f1f5f9; /* Slate 100 */
+    border-radius:6px;
+}
+.search-input-box{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    outline: none;
+}
+.close-icon{
+    font-size: 20px;
+    color: #6b7280; /* Slate 500 */
+    cursor: pointer;
+    margin-right: 0.75rem;
+}
+.close-icon:hover {
+    color: black; 
+}
+.search-icon{
+    cursor: pointer;
+    color: #94a3b8;
+}
+.search-icon:hover {
+    color: black; 
+}

@@ -1,0 +1,53 @@
+.note-card{
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem; 
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.note-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h6{
+    font-size: 14px; /* Equivalent to text-sm - 0.875*/
+    font-weight: bold; /* Equivalent to font-medium */
+    margin:5px 0;
+}
+span{
+    font-size: 14px;
+    color: #718096; /* Equivalent to text-slate-500 */
+}
+.icon-button-pin{
+    color: blue;
+}
+.note-content{
+    font-size: 14px;
+    color: #4a5568; /* Equivalent to text-slate-600 */
+    margin:5px 0 0 0;/* Equivalent to mt-2 */
+}
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tags{
+    font-size: 14px;
+    color: #718096; /* Equivalent to text-slate-500 */
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 2;
+}
+.icon-button-edit,.icon-button-delete{
+    font-size: 16px; /* Equivalent to text-xl */
+    color: #718096; /* Equivalent to text-slate-300 */
+    cursor: pointer;
+}
+.icon-button-edit:hover {
+    color: #2f855a;
+}
+.icon-button-delete:hover {
+    color: #DC2626; 
+}
