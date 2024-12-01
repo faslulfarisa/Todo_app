@@ -47,7 +47,6 @@ const SignUp = () => {
     }
   };
   return <>
-    <Navbar/>
     <div className='container'>
         <div className='sub-container'>
             <form onSubmit={handleSignUp}>
